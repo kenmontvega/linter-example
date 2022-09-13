@@ -27,3 +27,35 @@ npm run dev
 ```sh
 npm run build
 ```
+
+------------
+Comandos Linter
+------------
+instalar eslint
+npm init @eslint/config
+
+Ejecutar Eslint
+npx eslint src\**
+
+Corregir errores con Eslint
+npx eslint src\** --fix
+
+Añadir comandos al package.json 
+para facil accesso
+
+"lint": "eslint src\**",
+"fix": "eslint src\** --fix",
+
+
+Ejecutar Prettier
+npx prettier --write .
+
+
+
+Documentacion
+Eslint
+https://eslint.org/docs/latest/rules/
+Vue linter
+https://eslint.vuejs.org/rules/
+Prettier
+https://prettier.io/docs/en/install.html
